@@ -1,0 +1,25 @@
+.container-cab {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 5vh;
+    background: #313044;
+    align-items: center;
+    justify-content: right;
+}
+
+.bloco-img {
+    display: flex;
+    align-items: center;
+    width: 260px;
+}
+
+.bloco-img a {
+    display: flex;
+    align-items: center;
+}
+
+.img-cab{
+    height: 20px;
+    padding: 0px 5px;
+}

@@ -1,0 +1,78 @@
+.container-nav {
+    display: flex;
+    flex-direction: row;
+    width: 98%;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    height: 100px;
+    background: black;
+    font-family: sans-serif;
+}
+
+.img-nav {
+    height: 80px;
+    margin-left: 100px;
+}
+
+.opts-nav {
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    height: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+
+.contact {
+    padding: 6px 40px;
+    background: #8b0000;
+    border-radius: 0px 60px 0px 60px;
+    transition: 0.2s;
+    cursor: pointer;
+    border: 1px solid #8b0000;
+    font-weight: bold;
+}
+
+.contact:hover {
+    border: 1px solid white;
+}
+
+.about-me, .projects {
+    cursor: pointer;
+    transition: 0.2s;
+    font-weight: bold;
+}
+
+.projects:hover {
+    color: #aa0101;
+}
+
+.about-me:hover {
+    color: #8b0000;
+}
+
+.img-logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 410px;
+}
+
+.name {
+    width: 200px;
+}
+
+.myName {
+    font-size: 22px;
+    margin: 8px 0;
+    font-weight: bold;
+    color: #b10000;
+}
+
+.job {
+    font-weight: bold;
+    color: rgb(197, 197, 197);
+}
